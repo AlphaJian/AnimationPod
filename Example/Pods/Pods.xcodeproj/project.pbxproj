@@ -133,6 +133,8 @@
 		B938124F9D6887091858364E8F531DF8 /* LOTRoundedRectAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBC00DCB49110010599AF6F57868DCE /* LOTRoundedRectAnimator.m */; };
 		B97BBCAC96F92AA248735A2B4A1BCBBE /* LOTStrokeRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CC91A0112CFD18D61F1340FB2013A0 /* LOTStrokeRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BF8B7BA7FA75DD0BD69E3367DF61BB8E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88159F2E36FE43B43C361B2F2EE4E532 /* ReplaceMe.swift */; };
+		C083B76A20FC4A1C005A42BA /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083B76920FC4A1C005A42BA /* AnimationView.swift */; };
+		C083B76C20FC69DC005A42BA /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083B76B20FC69DC005A42BA /* AnimationModel.swift */; };
 		C2450730238EB5F5F003B9D24BA92836 /* LOTPointInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B12434874DCC1F73197536760D67F424 /* LOTPointInterpolator.m */; };
 		C3B88136FFF397199A8CEC3AB484D6DF /* LOTCacheProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91A7418C4280BF294D0FFBA4AA2149 /* LOTCacheProvider.m */; };
 		C44B82345B185534D1101034D665D3FF /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF05DD12B01004679052F42AD541939 /* ConstraintViewDSL.swift */; };
@@ -377,6 +379,8 @@
 		BEAC88FE102024CAA08E680B9A897490 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		BEE2E1BCC549109CEA683C807B5FFF2B /* LOTShapeGradientFill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTShapeGradientFill.h; path = "lottie-ios/Classes/Models/LOTShapeGradientFill.h"; sourceTree = "<group>"; };
 		BF29F9C721D45A74701000B66117701E /* LOTValueInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTValueInterpolator.h; path = "lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTValueInterpolator.h"; sourceTree = "<group>"; };
+		C083B76920FC4A1C005A42BA /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		C083B76B20FC69DC005A42BA /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
 		C0EB53BA7634CAC4D9C3F5C30743FCF1 /* LOTPolystarAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTPolystarAnimator.m; path = "lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolystarAnimator.m"; sourceTree = "<group>"; };
 		C168E45DA3E95EAEBCA72BC2E57B3054 /* LOTShapeTrimPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTShapeTrimPath.m; path = "lottie-ios/Classes/Models/LOTShapeTrimPath.m"; sourceTree = "<group>"; };
 		C18E65F09C12D0F370CD0F4E25DA549F /* LOTBlockCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTBlockCallback.h; path = "lottie-ios/Classes/PublicHeaders/LOTBlockCallback.h"; sourceTree = "<group>"; };
@@ -727,6 +731,8 @@
 		C083B76820FC4850005A42BA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C083B76920FC4A1C005A42BA /* AnimationView.swift */,
+				C083B76B20FC69DC005A42BA /* AnimationModel.swift */,
 			);
 			name = Resource;
 			path = AnimationPod/Classes/Resource;
@@ -1026,6 +1032,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C083B76C20FC69DC005A42BA /* AnimationModel.swift in Sources */,
+				C083B76A20FC4A1C005A42BA /* AnimationView.swift in Sources */,
 				E90A0CEB205A9A1131AB45D30CBDCD43 /* AnimationPod-dummy.m in Sources */,
 				BF8B7BA7FA75DD0BD69E3367DF61BB8E /* ReplaceMe.swift in Sources */,
 			);
@@ -1395,7 +1403,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1495,7 +1503,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
