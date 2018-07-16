@@ -1,9 +1,10 @@
 {
   "name": "AnimationPod",
   "version": "0.1.0",
-  "summary": "A short description of AnimationPod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/272388559@qq.com/AnimationPod",
+  "swift_version": "3.2",
+  "summary": "Animation view which is based on Lottie-iOS",
+  "description": "A public animation view based on Lottie-iOS",
+  "homepage": "https://github.com/AlphaJian/AnimationPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,19 @@
     "272388559@qq.com": "ken.zhang@alo7.com"
   },
   "source": {
-    "git": "https://github.com/272388559@qq.com/AnimationPod.git",
+    "git": "https://github.com/AlphaJian/AnimationPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "AnimationPod/Classes/**/*"
+  "source_files": "AnimationPod/Classes/**/*",
+  "dependencies": {
+    "lottie-ios": [
+      "2.5.0"
+    ],
+    "SnapKit": [
+      "3.2.0"
+    ]
+  }
 }

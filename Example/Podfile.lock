@@ -1,16 +1,27 @@
 PODS:
-  - AnimationPod (0.1.0)
+  - AnimationPod (0.1.0):
+    - lottie-ios (= 2.5.0)
+    - SnapKit (= 3.2.0)
+  - lottie-ios (2.5.0)
+  - SnapKit (3.2.0)
 
 DEPENDENCIES:
   - AnimationPod (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - lottie-ios
+    - SnapKit
 
 EXTERNAL SOURCES:
   AnimationPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnimationPod: f2db836a19572929bcf551cb359e8a6c9e418cce
+  AnimationPod: 467431dce97fcf0304a905c6c4eee9da92179e2e
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: 88a5c36dd9cb3dab590cac11adcd729288bf6924
+PODFILE CHECKSUM: 05e46a79081dbd2b6e79abf72acbdc6d9cbfebd8
 
 COCOAPODS: 1.5.3
