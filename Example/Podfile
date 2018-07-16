@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimationPod_Example' do
+  pod 'AnimationPod', :path => '../'
+
+  target 'AnimationPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
