@@ -18,7 +18,7 @@ A public animation view based on Lottie-iOS
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'AnimationPod/Classes/**/*'
+  s.source_files = 'AnimationPod/Resource/*.swift'
   
   s.dependency 'lottie-ios', '2.5.0'
   s.dependency 'SnapKit', '3.2.0'
