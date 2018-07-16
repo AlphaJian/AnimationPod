@@ -1,0 +1,22 @@
+{
+  "name": "AnimationPod",
+  "version": "0.1.0",
+  "summary": "A short description of AnimationPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/272388559@qq.com/AnimationPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "272388559@qq.com": "ken.zhang@alo7.com"
+  },
+  "source": {
+    "git": "https://github.com/272388559@qq.com/AnimationPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimationPod/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - AnimationPod (0.1.0)
+
+DEPENDENCIES:
+  - AnimationPod (from `../`)
+
+EXTERNAL SOURCES:
+  AnimationPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimationPod: f2db836a19572929bcf551cb359e8a6c9e418cce
+
+PODFILE CHECKSUM: 88a5c36dd9cb3dab590cac11adcd729288bf6924
+
+COCOAPODS: 1.5.3

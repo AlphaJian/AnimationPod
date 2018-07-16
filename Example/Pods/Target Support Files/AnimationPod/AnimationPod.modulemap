@@ -1,0 +1,6 @@
+framework module AnimationPod {
+  umbrella header "AnimationPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
