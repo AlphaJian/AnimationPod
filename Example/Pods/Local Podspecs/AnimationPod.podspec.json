@@ -19,7 +19,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AnimationPod/Classes/**/*",
+  "source_files": "AnimationPod/Resource/*.swift",
   "dependencies": {
     "lottie-ios": [
       "2.5.0"
