@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AnimationPod
 
 class ViewController: UIViewController {
 
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func star(_ sender: Any) {
+
     }
 }
 

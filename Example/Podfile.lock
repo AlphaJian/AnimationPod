@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnimationPod: 8cf23882b85e093fd0845e7a12d905821d0a1165
+  AnimationPod: 9e859a5dec6af4e1532ca15a4ab1efef9500086b
   lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 

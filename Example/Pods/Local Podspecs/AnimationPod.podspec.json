@@ -10,7 +10,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "272388559@qq.com": "ken.zhang@alo7.com"
+    "Ken.Zhang": "ken.zhang@alo7.com"
   },
   "source": {
     "git": "https://github.com/AlphaJian/AnimationPod.git",
@@ -19,7 +19,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AnimationPod/Resource/*.swift",
+  "source_files": "AnimationPod/Classes/**/*",
   "dependencies": {
     "lottie-ios": [
       "2.5.0"
